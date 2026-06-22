@@ -1,37 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on003602",
-  "source": "openneuro",
-  "source_id": "ds003602",
+  "pipeline_stage": "enriched",
   "title": "Childhood Sexual Abuse and problem drinking in women: Neurobehavioral mechanisms",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ozlem Korucuoglu": {},
     "Andrey P. Anokhin": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003602.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003602",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003602",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v5.1",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "5R01AA025646-04"
+      "funder_name": "NIH",
+      "award_number": "5R01AA025646-04"
     },
     {
-      "funder_name": "5R24MH120037"
+      "funder_name": "NIH",
+      "award_number": "5R24MH120037"
     }
   ],
-  "acknowledgements": "Clement Lee and Arnaud Delorme"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".PCX",
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".pdf",
+    ".pptx",
+    ".set",
+    ".tsv",
+    ".wav"
+  ],
+  "description": "This dataset investigates the neurobehavioral mechanisms linking childhood sexual abuse and problem drinking in women using EEG data collected from monozygotic twin pairs. The study employs a behavioral task with visual stimuli to examine neural correlates associated with these clinical outcomes. Data were collected at Washington University School of Medicine under IRB approval and include detailed task descriptions, stimulus materials, and genetic relationship information for twin participants.",
+  "methods_description": "Data collection involved a behavioral task with visual stimuli administered to monozygotic twin pairs. Detailed task descriptions, subject instructions, stimulus materials, and task sequence code are provided in the stimuli folder. Data collection was conducted at Washington University School of Medicine under IRB supervision (IRB project # 201707051).",
+  "keywords": [
+    {
+      "term": "childhood sexual abuse"
+    },
+    {
+      "term": "problem drinking"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "twin study"
+    },
+    {
+      "term": "monozygotic twins"
+    },
+    {
+      "term": "neurobehavioral mechanisms"
+    },
+    {
+      "term": "women"
+    },
+    {
+      "term": "genetics"
+    }
+  ],
+  "source_hash": "e31bfa991a561110a7bba71810310b61a01c1a468303c487980f272cb8579fac"
 }
