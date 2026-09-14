@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003602-blue)](https://doi.org/10.82901/nemar.on003602)
+
 Data collection took place at the Washington University School of Medicine, St. Louis, under the supervision of Dr. Andrey Anokhin (andrey@wustl.edu). The project was approved by the Washington University Institutional Review Board (IRB project # 201707051). Detailed task description and subject instructions can be found in a seperate PDF file under the folder stimuli. The task sequence file (stim program code) together with the visual stimuli used in the task are also provided in the stimulus folder. Participants were Monozygotic twin pairs, twin pairs have the same FamilyID (provided in participants.tsv)
