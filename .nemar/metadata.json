@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Childhood Sexual Abuse and problem drinking in women: Neurobehavioral mechanisms",
-  "description": "This dataset investigates the neurobehavioral mechanisms linking childhood sexual abuse and problem drinking in women using EEG neuroimaging data collected from monozygotic twin pairs. The study employs a behavioral task with visual stimuli to examine neural correlates associated with these clinical phenotypes. Data were collected at Washington University School of Medicine under IRB approval and include detailed task descriptions, stimulus materials, and genetic relationship information for twin participants.",
-  "methods_description": "Data collection involved a behavioral task with visual stimuli administered to monozygotic twin pairs. Detailed task descriptions, subject instructions, stimulus materials, and task sequence code are provided in the stimuli folder. Data were collected at Washington University School of Medicine under IRB approval (project #201707051).",
+  "description": "This dataset comprises EEG recordings collected to investigate neurobehavioral mechanisms linking childhood sexual abuse and problem drinking in women. Data were collected from monozygotic twin pairs at Washington University School of Medicine to examine shared genetic and environmental influences on these behaviors. The dataset includes task-based EEG data along with stimulus materials and task instructions.",
+  "methods_description": "Data collection took place at Washington University School of Medicine, St. Louis, under the supervision of Dr. Andrey Anokhin, approved by the Washington University Institutional Review Board. Participants were monozygotic twin pairs, identified by shared FamilyID in participants.tsv. Task description, subject instructions, task sequence files, and visual stimuli are provided in the stimuli folder.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,49 +12,41 @@
   },
   "keywords": [
     {
-      "term": "childhood sexual abuse"
-    },
-    {
-      "term": "problem drinking"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "electrophysiology"
+      "term": "Childhood Sexual Abuse"
     },
     {
-      "term": "twin study"
+      "term": "Alcohol Drinking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000428"
     },
     {
-      "term": "monozygotic twins"
+      "term": "Twins, Monozygotic",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014430"
     },
     {
-      "term": "women"
+      "term": "Women"
     },
     {
-      "term": "neurobehavioral mechanisms"
-    },
-    {
-      "term": "genetic study"
-    },
-    {
-      "term": "neuroimaging"
+      "term": "Neurobehavioral mechanisms"
     }
   ],
   "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003602.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
     {
       "identifier": "https://github.com/nemarDatasets/on003602",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003602",
+      "identifier": "10.18112/openneuro.ds003602.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003602",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -74,7 +66,7 @@
     "eeg"
   ],
   "sizes": [
-    "78.6 GB (1447 files)"
+    "73.20 GB (1447 files)"
   ],
   "formats": [
     ".PCX",
@@ -89,5 +81,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "e31bfa991a561110a7bba71810310b61a01c1a468303c487980f272cb8579fac"
+  "source_hash": "4c548557bdf3f199600b9dc154a6ea9b29654cf92e5b15bf6b0a205c1cf771ce"
 }
